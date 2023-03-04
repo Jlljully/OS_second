@@ -70,7 +70,11 @@ node_scrape_collector_duration_seconds{collector="netstat"} 0.001132181**
 
 ### Ответ
 
-![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_13.png "dmesg")
+**Запустила для примера просто /bin/bash и топ**
+
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_14.png "unshare")
+
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_13.png "unshare")
 
 7. Найдите информацию о том, что такое `:(){ :|:& };:`. Запустите эту команду в своей виртуальной машине Vagrant с Ubuntu 20.04 (**это важно, поведение в других ОС не проверялось**). Некоторое время всё будет плохо, после чего (спустя минуты) — ОС должна стабилизироваться. Вызов `dmesg` расскажет, какой механизм помог автоматической стабилизации.  
 Как настроен этот механизм по умолчанию, и как изменить число процессов, которое можно создать в сессии?
