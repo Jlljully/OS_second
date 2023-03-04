@@ -9,9 +9,9 @@
 
 ### Ответ
 
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_2.png "1")
 
-
-![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_4.png "2")
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_4%20(1).png "2")
 
 **Стоп-старт работают без проблем**
 
