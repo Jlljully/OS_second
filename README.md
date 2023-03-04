@@ -44,7 +44,7 @@ node_scrape_collector_duration_seconds{collector="netstat"} 0.001132181**
 
 ### Ответ
 
-
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_7.png "5")
 
 4. Можно ли по выводу `dmesg` понять, осознаёт ли ОС, что загружена не на настоящем оборудовании, а на системе виртуализации?
 
