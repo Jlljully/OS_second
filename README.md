@@ -50,7 +50,9 @@ node_scrape_collector_duration_seconds{collector="netstat"} 0.001132181**
 
 ### Ответ
 
+**Да, можно:**
 
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_8.png "dmesg")
 
 5. Как настроен sysctl `fs.nr_open` на системе по умолчанию? Определите, что означает этот параметр. Какой другой существующий лимит не позволит достичь такого числа (`ulimit --help`)?
 
