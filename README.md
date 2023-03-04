@@ -9,7 +9,11 @@
 
 ### Ответ
 
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_1.png "1")
 
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_2.png "2")
+
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_3.png "3")
 
 2. Изучите опции node_exporter и вывод `/metrics` по умолчанию. Приведите несколько опций, которые вы бы выбрали для базового мониторинга хоста по CPU, памяти, диску и сети.
 
