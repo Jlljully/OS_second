@@ -60,17 +60,17 @@ node_scrape_collector_duration_seconds{collector="netstat"} 0.001132181**
 
 **Это - хардлимит на количество дескрипторов (запущенных файлов). Есть еще софтлимит, посмотреть его можно uname -n**
 
-![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_10.png "dmesg")
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_10.png "fs.nr_open")
 
-![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_11.png "dmesg")
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_11.png "fs.nr_open")
 
-![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_12.png "dmesg")
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_12.png "fs.nr_open")
 
 6. Запустите любой долгоживущий процесс (не `ls`, который отработает мгновенно, а, например, `sleep 1h`) в отдельном неймспейсе процессов; покажите, что ваш процесс работает под PID 1 через `nsenter`. Для простоты работайте в этом задании под root (`sudo -i`). Под обычным пользователем требуются дополнительные опции (`--map-root-user`) и т. д.
 
 ### Ответ
 
-
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_13.png "dmesg")
 
 7. Найдите информацию о том, что такое `:(){ :|:& };:`. Запустите эту команду в своей виртуальной машине Vagrant с Ubuntu 20.04 (**это важно, поведение в других ОС не проверялось**). Некоторое время всё будет плохо, после чего (спустя минуты) — ОС должна стабилизироваться. Вызов `dmesg` расскажет, какой механизм помог автоматической стабилизации.  
 Как настроен этот механизм по умолчанию, и как изменить число процессов, которое можно создать в сессии?
