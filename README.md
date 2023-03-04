@@ -84,4 +84,8 @@ node_scrape_collector_duration_seconds{collector="netstat"} 0.001132181**
 
 ### Ответ
 
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_17.png "unshare")
+
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_19.png "unshare")
+
 
