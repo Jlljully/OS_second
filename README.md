@@ -58,7 +58,13 @@ node_scrape_collector_duration_seconds{collector="netstat"} 0.001132181**
 
 ### Ответ
 
+**Это - хардлимит на количество дескрипторов (запущенных файлов). Есть еще софтлимит, посмотреть его можно uname -n**
 
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_10.png "dmesg")
+
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_11.png "dmesg")
+
+![Скрин](https://github.com/Jlljully/OS_second/blob/main/Screenshot_12.png "dmesg")
 
 6. Запустите любой долгоживущий процесс (не `ls`, который отработает мгновенно, а, например, `sleep 1h`) в отдельном неймспейсе процессов; покажите, что ваш процесс работает под PID 1 через `nsenter`. Для простоты работайте в этом задании под root (`sudo -i`). Под обычным пользователем требуются дополнительные опции (`--map-root-user`) и т. д.
 
